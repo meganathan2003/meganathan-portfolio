@@ -1,0 +1,308 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", "sans-serif";
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url('img/nature.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+/* about navbar */
+.nav_bar {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    flex-wrap: nowrap;
+    margin-bottom: 20px;
+
+}
+
+.nav_bar a:hover {
+    box-shadow: 4px 7px 5px 0px rgb(35, 34, 35);
+    transform: scale(1.6);
+    color:rgb(255, 144, 144);
+    padding-right:2px;
+}
+
+/* hedear in the top */
+h1 {
+    margin-left: 600px;
+    margin-top: 20px;
+    text-decoration: underline;
+    font-style: italic;
+    text-shadow: 6px 0px 3px rgba(190, 49, 49, 0.62);
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(1, 1, 3);
+    font-weight: 600;
+    font-size: large;
+    transition: 0.4s;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+nav ul {
+    list-style-type: none;
+
+}
+
+nav ul li {
+    display: inline-flex;
+    padding: 30px;
+
+}
+
+nav {
+    margin-right: 80px;
+}
+
+.logo img {
+    margin-left: 110px;
+}
+
+/* End of the nav */
+
+
+/* -------content of myself */
+.my_img {
+
+    display: flex;
+    margin-top: 10px;
+}
+
+.col-1,
+.col-2 {
+    /* background-color: rgba(225, 182, 182, 0.852); */
+    flex-wrap: wrap;
+}
+
+
+h2 {
+    text-decoration: none;
+    margin-top: 60px;
+    font-weight: 700;
+    font-size: 35px;
+    font-style: italic;
+    text-shadow: 6px 0px 3px rgba(123, 217, 243, 0.62);
+    border-radius: 40px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.col-1 img {
+    margin-top: 10px;
+    margin-left: 150px;
+    border-radius: 50%;
+    align-items: center;
+    transition: 0.5s;
+    margin-bottom: 20px;
+    padding: 2px;
+
+
+}
+
+.col-2 p {
+    margin-top: 70px;
+    margin-left: 50px;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-size: 25px;
+    height: 0px;
+    letter-spacing: 2px;
+    color: rgb(207, 183, 25);
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bolder;
+    transition: 0.4s;
+
+}
+
+/* this is hr tag css */
+hr {
+    height: 3px;
+    color: gray;
+    background-color: gray;
+    border-width: 0;
+}
+
+/* colum one heading hover */
+h2:hover {
+    color: white;
+    transform: translateY(-9px);
+    box-shadow: 4px 7px 5px 0px rgb(35, 34, 35);
+    margin-left: 580px;
+    margin-right: 580px;
+
+}
+
+.col-1 img:hover {
+    transform: scale(1.1);
+
+}
+
+/* -----End of the hover css */
+
+/* about my hobbies */
+.about_hobbies h3{
+    margin-left:20px;
+}
+.about_hobbies {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    margin-left: 10px;
+    align-content: center;
+    justify-content: space-around;
+}
+
+/* heading hobbies */
+.hobbies {
+    margin-top: 80px;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-shadow: 6px 0px 3px rgba(252, 80, 80, 0.62);
+}
+
+.chess {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 130px;
+    font-weight: 500;
+    font-size: 20px;
+
+}
+
+.my-fav img:hover,
+.my-fav1 img:hover,
+.my-fav2 img:hover {
+    transform: translateY(-10px);
+}
+
+.my-fav img,
+.my-fav1 img,
+.my-fav2 img {
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+    border: 3px solid rgb(148, 243, 243);
+    transition: 0.5s;
+}
+
+.my-fav p {
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(1, 2, 2);
+    text-decoration: underline;
+}
+
+.my-fav h3 {
+    font-weight: 500;
+    font-family: cursive;
+    font-size: 20px;
+    color: rgb(236, 231, 241);
+}
+
+.my-fav h3 a {
+    margin-top: 12px;
+    margin-left: 100px;
+    color: chocolate;
+    border: 2px solid sandybrown;
+    border-radius: 30px;
+    padding: 8px 30px;
+}
+
+.my-fav h3 a:hover {
+    color: white;
+    background-color: lightgray;
+}
+
+/* about rubix cube */
+.Rubix-cube {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 130px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.my-fav1 p {
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(223, 73, 223);
+    text-decoration: underline;
+}
+
+.my-fav1 h3 {
+    font-weight: 500;
+    font-family: cursive;
+    font-size: 20px;
+    color: rgb(255, 66, 66);
+}
+
+.my-fav1 h3 a {
+    margin-top: 12px;
+    margin-left: 100px;
+    color: darkblue;
+    border: 2px solid sandybrown;
+    border-radius: 30px;
+    padding: 8px 40px;
+}
+
+.my-fav1 h3 a:hover {
+    color: white;
+    background-color: lightpink;
+}
+/* ------End of the Rubix */
+.Books {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 130px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.my-fav2 p {
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    color: darkgreen;
+    text-decoration: underline;
+}
+
+.my-fav2 h3 {
+    font-weight: 500;
+    font-family: cursive;
+    font-size: 20px;
+    color: rgba(16, 0, 236, 0.975);
+}
+
+.my-fav2 h3 a {
+    margin-top: 12px;
+    margin-left: 100px;
+    color: rgb(157, 157, 161);
+    border: 2px solid sandybrown;
+    border-radius: 30px;
+    padding: 8px 40px;
+}
+
+.my-fav2 h3 a:hover {
+    color: white;
+    background-color: rgb(14, 243, 255);
+}
+.my-fav2 h3{
+    margin-left: 60px;
+}
+/* -----End of the hobbies content */
